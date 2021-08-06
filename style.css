@@ -1,0 +1,86 @@
+.main {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: rgb(206, 198, 184);
+}
+.header{
+    background-color: white;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link ul li{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-right: 1px black;
+    margin-right: 3%;
+}
+.link{
+    width: 40%;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-image: url(beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contlogo{
+   margin-top: 2%;
+   margin-bottom: 4%;
+   width: 20%;
+}
+.cont1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    width: 50%;
+}
+.contbtn{
+  
+display: block;
+margin: 10% auto 30px auto;
+background-color:rgb(99, 83, 83);
+color: black;
+border: none;
+width: 30%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bolder;
+font-size: 2em;
+
+}
+.contbtn:hover{
+    color: white;
+    top: -5px;
+}
+.contbtn a{
+    text-decoration: none;
+}
+.text{
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.main{
+    z-index: 1;
+    background-color: rgb(20, 36, 3);
+    text-align: center;
+   
+}
+.imgmain{
+    width: 80%;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
